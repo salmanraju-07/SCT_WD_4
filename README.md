@@ -1,13 +1,7 @@
- Here’s a complete `README.md` for your Task 4 - Smart Todo App:
-
----
-
 # 📝 Smart Todo App
-
 A feature-rich todo list web app with multiple lists, due dates, local storage, and task management. Built with vanilla HTML, CSS, and JavaScript.
-
-*🔗 Live Demo:* https://salmanraju-07.github.io/SCT_WD_2/
-
+*🔗 Live Demo:* https://salmanraju-07.github.io/SCT_WD_4/  
+*💻 GitHub Repo:* https://github.com/salmanraju-07/SCT_WD_4
 ### *✨ Features*
 - *Multiple Lists* - Create, switch, and delete custom lists like Personal, Work, etc.
 - *Task Management* - Add, edit, delete, and mark tasks as complete
@@ -19,12 +13,10 @@ A feature-rich todo list web app with multiple lists, due dates, local storage, 
 - *Inline Editing* - Click edit icon to modify tasks without popups
 - *Empty States* - Clean UI when no tasks/lists exist
 - *Responsive Design* - Mobile-first layout with CSS Grid
-
 ### *🛠️ Built With*
 - *HTML5* - Semantic structure
 - *CSS3* - Flexbox, Grid, CSS variables, Media queries
 - *JavaScript* - LocalStorage API, Date handling, Array methods, DOM manipulation
-
 ### *📚 Key Learnings*
 1. *Data Persistence* - Using `localStorage` + `JSON.parse/stringify` to save complex nested data
 2. *State Management* - Managing `currentListId` and `editingTaskId` without frameworks
@@ -32,28 +24,22 @@ A feature-rich todo list web app with multiple lists, due dates, local storage, 
 4. *Dynamic Rendering* - Rebuilding lists/tasks UI on every data change
 5. *Event Delegation* - Using `onclick` and `event.stopPropagation()` for nested clicks
 6. *UX Details* - Auto-focus edit inputs, Enter key shortcuts, confirm before delete
-
 ### *🚀 Getting Started*
 1. Clone the repository:
-git clone https://github.com/salmanraju-07/SCT_WD_2.git
+git clone https://github.com/salmanraju-07/SCT_WD_4.git
 2. Open `index.html` in your browser
 3. Start adding lists and tasks. Data saves automatically
-
 ### *📂 File Structure*
-SCT_WD_2/
+SCT_WD_4/
 ├── index.html    # App structure + layout
 ├── style.css     # Styling + responsive design
 ├── script.js     # All app logic + localStorage
 └── README.md     # Documentation
-### *📸 Screenshots*
-> Add your screenshot: `![Todo App](screenshot.png)`
-
 ### *🎯 How It Works*
 1. *Lists are stored as array* - Each list has `id`, `name`, and `tasks[]`
 2. *Tasks sort dynamically* - Incomplete first, then by `dateTime` ascending
 3. *Stats update live* - `updateStats()` runs after every data change
-4. *Overdue check* - Compares `task.dateTime` with `new Date()` on render
-
+4. *Overdue check* - Compares `task.dateTime` with `new Date()` on rende
 ### *🎯 Future Enhancements*
 - [ ] Drag & drop to reorder tasks
 - [ ] Priority levels: High/Medium/Low
@@ -72,10 +58,3 @@ GitHub: [@salmanraju-07](https://github.com/salmanraju-07)
 This is Task 4 of my Web Development series. Built to practice CRUD operations and localStorage.
 
 ---
-
-*Pro tips for your repo:*
-1. Add a `screenshot.png` showing 2-3 tasks with dates to make it visual
-2. If this was for an internship/course, mention it: `Built as part of SkillCraft Technology Web Dev Task 4`
-3. Update "Task 4" number if your series has different total tasks
-
-Want me to add setup for GitHub Pages or a LinkedIn post draft for this too?
